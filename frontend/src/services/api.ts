@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { ChatRequest, ChatResponse, Conversation } from '../types';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000/api/v1';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://gitlab-genai-chatbot.onrender.com';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
