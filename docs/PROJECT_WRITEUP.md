@@ -1,8 +1,24 @@
 # Project Write-up: GitLab GenAI Chatbot
 
+## 🚀 Live Deployment Links
+
+- **🌐 Frontend (Deployed)**: https://gitlab-genai-chatbot.vercel.app/
+- **⚡ Backend API (Deployed)**: https://gitlab-genai-chatbot.onrender.com
+- **📂 GitHub Repository**: https://github.com/Mr-ut/gitlab-genai-chatbot
+- **📊 API Health Check**: https://gitlab-genai-chatbot.onrender.com/api/v1/health
+
 ## 📋 Executive Summary
 
 This project delivers a sophisticated GenAI chatbot that helps users navigate GitLab's extensive Handbook and Direction pages using Retrieval Augmented Generation (RAG) architecture. Built with transparency and collaboration in mind, following GitLab's "build in public" philosophy, the chatbot provides accurate, contextual answers backed by source references.
+
+**🎯 Project Status: FULLY DEPLOYED & OPERATIONAL**
+
+- ✅ Backend deployed on Render with Docker
+- ✅ Frontend deployed on Vercel 
+- ✅ RAG pipeline operational with 366 document chunks
+- ✅ Groq LLM integration working (free tier)
+- ✅ CORS configured for cross-origin requests
+- ✅ Full end-to-end functionality tested
 
 ## 🎯 Project Objectives Met
 
