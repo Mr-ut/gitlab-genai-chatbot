@@ -145,11 +145,12 @@ export const ChatInterface: React.FC = () => {
           <div className="p-4 border-b border-gray-200 flex justify-between items-center">
             <h3 className="font-semibold text-gray-900">Conversation</h3>
             <button
-              onClick={handleClearChat}
-              className="text-sm text-gray-500 hover:text-red-600 transition-colors"
-            >
-              Clear Chat
-            </button>
+            onClick={handleClearChat}
+            className="inline-flex items-center justify-center rounded-lg border border-gray-300 bg-gray px-4 py-2 text-sm font-medium text-gray-600 transition-all duration-200 hover:border-red-400 hover:bg-red-50 hover:text-red-600 active:scale-95 shadow-sm"
+          >
+            Clear Chat
+          </button>
+
           </div>
 
           <div className="p-4 max-h-96 overflow-y-auto">
