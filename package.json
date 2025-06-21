@@ -1,0 +1,16 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "A sophisticated RAG-powered chatbot that helps users navigate and learn from GitLab's Handbook and Direction pages. Built with transparency and collaboration in mind, following GitLab's \"build in public\" philosophy.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
